@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo GitHub Site</title>
+    <link>https://t-kl.github.io/</link>
+    <description>Recent content on Hugo GitHub Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Jan 2020 15:16:31 +0100</lastBuildDate>
+    
+	<atom:link href="https://t-kl.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Setup a Hugo Github Page</title>
+      <link>https://t-kl.github.io/posts/how-to-setup-a-hugo-github-page/</link>
+      <pubDate>Sun, 05 Jan 2020 15:16:31 +0100</pubDate>
+      
+      <guid>https://t-kl.github.io/posts/how-to-setup-a-hugo-github-page/</guid>
+      <description>Create a GitHub Account Getting started with GitHub  Set up Git Create a repo  Make sure to name the repository &amp;lt;user&amp;gt;.github.io.
+Getting started with GitHub Pages  Creating a GitHub Pages site  Install Hugo  Quick Start  </description>
+    </item>
+    
+  </channel>
+</rss>
