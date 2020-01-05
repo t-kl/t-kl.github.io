@@ -6,10 +6,22 @@
     <description>Recent content in Posts on Tom&#39;s very own</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jan 2020 15:16:31 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jan 2020 22:34:59 +0100</lastBuildDate>
     
 	<atom:link href="https://t-kl.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Create a Simple HTML Page</title>
+      <link>https://t-kl.github.io/posts/create-a-simple-html-page/</link>
+      <pubDate>Sun, 05 Jan 2020 22:34:59 +0100</pubDate>
+      
+      <guid>https://t-kl.github.io/posts/create-a-simple-html-page/</guid>
+      <description>Album Covers Absolute Beginners The goal is to create a simple web-site where you can show your favorites album. You will learn a bit of HTML, CSS and JavaScript on this tour.
+Setup We&#39;re using Google Chrome both for writing and displaying the page.
+Directory Create a new directory album-covers somewhere, for instance on your Desktop or in your Documents.
+Developer Tools  Start Google Chrome and drag and drop that folder to the browser.</description>
+    </item>
     
     <item>
       <title>How to Setup a Hugo Github Page</title>
