@@ -39,7 +39,7 @@ Getting started with GitHub Pages  Creating a GitHub Pages site  Install Hugo  Q
 git clone https://github.com/&lt;user&gt;/&lt;user&gt;.github.io.git public Generate new static site With the following command a new version is generated:">
 <meta itemprop="datePublished" content="2020-01-05T15:16:31&#43;01:00" />
 <meta itemprop="dateModified" content="2020-01-05T15:16:31&#43;01:00" />
-<meta itemprop="wordCount" content="103">
+<meta itemprop="wordCount" content="106">
 
 
 
@@ -126,16 +126,15 @@ git clone https://github.com/&lt;user&gt;/&lt;user&gt;.github.io.git public Gene
 <h1 id="clone-repository">Clone Repository</h1>
 <p>We want to push the generated files in <code>public</code> to <em>GitHub</em>.
 Thus we clone the repository in there:</p>
-<pre><code>git clone https://github.com/&lt;user&gt;/&lt;user&gt;.github.io.git  public
+<pre><code>git clone https://github.com/&lt;user&gt;/&lt;user&gt;.github.io.git public
 </code></pre><h1 id="generate-new-static-site">Generate new static site</h1>
 <p>With the following command a new version is generated:</p>
-<pre><code>hugo -D
+<pre><code>hugo
 </code></pre><h1 id="publish-content-to--github-">Publish content to <em>GitHub</em></h1>
 <p>Now the changes can be added and pushed to <em>GitHub</em>:</p>
-<pre><code>cd public
-git add --all
-git commit -m &quot;&lt;write a meaningful commit message&gt;&quot;
-git push
+<pre><code>git -C public add --all
+git -C public commit -m &quot;&lt;write a meaningful commit message&gt;&quot;
+git -C public push
 </code></pre><ul class="pa0">
   
 </ul>
