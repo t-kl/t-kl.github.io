@@ -27,27 +27,27 @@
     
     <meta property="og:title" content="How to Setup a Hugo Github Page" />
 <meta property="og:description" content="Create a GitHub Account Getting started with GitHub  Set up Git Create a repo  Make sure to name the repository &lt;user&gt;.github.io.
-Getting started with GitHub Pages  Creating a GitHub Pages site  Install Hugo  Quick Start  Clone Repository We want to push the generated files in public to GitHub. Thus we clone the repository in there:
-git clone https://github.com/&lt;user&gt;/&lt;user&gt;.github.io.git public Generate new static site With the following command a new version is generated:" />
+Getting started with GitHub Pages  Creating a GitHub Pages site  Install Hugo  Quick Start Host on GitHub  Deployment Run this shell-script to deploy the generated page:
+bash deploy.sh " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://t-kl.github.io/posts/how-to-setup-a-hugo-github-page/" />
 <meta property="article:published_time" content="2020-01-05T15:16:31+01:00" />
 <meta property="article:modified_time" content="2020-01-05T15:16:31+01:00" />
 <meta itemprop="name" content="How to Setup a Hugo Github Page">
 <meta itemprop="description" content="Create a GitHub Account Getting started with GitHub  Set up Git Create a repo  Make sure to name the repository &lt;user&gt;.github.io.
-Getting started with GitHub Pages  Creating a GitHub Pages site  Install Hugo  Quick Start  Clone Repository We want to push the generated files in public to GitHub. Thus we clone the repository in there:
-git clone https://github.com/&lt;user&gt;/&lt;user&gt;.github.io.git public Generate new static site With the following command a new version is generated:">
+Getting started with GitHub Pages  Creating a GitHub Pages site  Install Hugo  Quick Start Host on GitHub  Deployment Run this shell-script to deploy the generated page:
+bash deploy.sh ">
 <meta itemprop="datePublished" content="2020-01-05T15:16:31&#43;01:00" />
 <meta itemprop="dateModified" content="2020-01-05T15:16:31&#43;01:00" />
-<meta itemprop="wordCount" content="106">
+<meta itemprop="wordCount" content="49">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="How to Setup a Hugo Github Page"/>
 <meta name="twitter:description" content="Create a GitHub Account Getting started with GitHub  Set up Git Create a repo  Make sure to name the repository &lt;user&gt;.github.io.
-Getting started with GitHub Pages  Creating a GitHub Pages site  Install Hugo  Quick Start  Clone Repository We want to push the generated files in public to GitHub. Thus we clone the repository in there:
-git clone https://github.com/&lt;user&gt;/&lt;user&gt;.github.io.git public Generate new static site With the following command a new version is generated:"/>
+Getting started with GitHub Pages  Creating a GitHub Pages site  Install Hugo  Quick Start Host on GitHub  Deployment Run this shell-script to deploy the generated page:
+bash deploy.sh "/>
 
   </head>
 
@@ -122,19 +122,11 @@ git clone https://github.com/&lt;user&gt;/&lt;user&gt;.github.io.git public Gene
 <h1 id="install-hugo">Install Hugo</h1>
 <ul>
 <li><a href="https://gohugo.io/getting-started/quick-start">Quick Start</a></li>
+<li><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Host on GitHub</a></li>
 </ul>
-<h1 id="clone-repository">Clone Repository</h1>
-<p>We want to push the generated files in <code>public</code> to <em>GitHub</em>.
-Thus we clone the repository in there:</p>
-<pre><code>git clone https://github.com/&lt;user&gt;/&lt;user&gt;.github.io.git public
-</code></pre><h1 id="generate-new-static-site">Generate new static site</h1>
-<p>With the following command a new version is generated:</p>
-<pre><code>hugo
-</code></pre><h1 id="publish-content-to--github-">Publish content to <em>GitHub</em></h1>
-<p>Now the changes can be added and pushed to <em>GitHub</em>:</p>
-<pre><code>git -C public add --all
-git -C public commit -m &quot;&lt;write a meaningful commit message&gt;&quot;
-git -C public push
+<h2 id="deployment">Deployment</h2>
+<p>Run this shell-script to deploy the generated page:</p>
+<pre><code>bash deploy.sh
 </code></pre><ul class="pa0">
   
 </ul>

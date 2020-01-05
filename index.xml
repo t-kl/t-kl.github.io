@@ -18,8 +18,8 @@
       
       <guid>https://t-kl.github.io/posts/how-to-setup-a-hugo-github-page/</guid>
       <description>Create a GitHub Account Getting started with GitHub  Set up Git Create a repo  Make sure to name the repository &amp;lt;user&amp;gt;.github.io.
-Getting started with GitHub Pages  Creating a GitHub Pages site  Install Hugo  Quick Start  Clone Repository We want to push the generated files in public to GitHub. Thus we clone the repository in there:
-git clone https://github.com/&amp;lt;user&amp;gt;/&amp;lt;user&amp;gt;.github.io.git public Generate new static site With the following command a new version is generated:</description>
+Getting started with GitHub Pages  Creating a GitHub Pages site  Install Hugo  Quick Start Host on GitHub  Deployment Run this shell-script to deploy the generated page:
+bash deploy.sh </description>
     </item>
     
   </channel>
