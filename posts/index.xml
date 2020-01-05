@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Hugo GitHub Site</title>
+    <title>Posts on Tom&#39;s very own</title>
     <link>https://t-kl.github.io/posts/</link>
-    <description>Recent content in Posts on Hugo GitHub Site</description>
+    <description>Recent content in Posts on Tom&#39;s very own</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 05 Jan 2020 15:16:31 +0100</lastBuildDate>
@@ -18,7 +18,8 @@
       
       <guid>https://t-kl.github.io/posts/how-to-setup-a-hugo-github-page/</guid>
       <description>Create a GitHub Account Getting started with GitHub  Set up Git Create a repo  Make sure to name the repository &amp;lt;user&amp;gt;.github.io.
-Getting started with GitHub Pages  Creating a GitHub Pages site  Install Hugo  Quick Start  </description>
+Getting started with GitHub Pages  Creating a GitHub Pages site  Install Hugo  Quick Start  Clone Repository We want to push the generated files in public to GitHub. Thus we clone the repository in there:
+git clone https://github.com/&amp;lt;user&amp;gt;/&amp;lt;user&amp;gt;.github.io.git public Generate new static site With the following command a new version is generated:</description>
     </item>
     
   </channel>
